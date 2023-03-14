@@ -10,6 +10,7 @@
     width: 1000px;
     height: 500px;
     background-color: black;
+    position: relative;
 }
 
 .slide{
@@ -37,4 +38,15 @@ button{
     color: white;
     background-color: transparent;
     border: none;
+    position: absolute;
+    right: 50%;
+    font-size: 30px;
+}
+
+button.up{
+    top: 0;
+}
+
+button.down{
+    bottom: 0;
 }
