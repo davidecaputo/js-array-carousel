@@ -23,3 +23,8 @@ const immagini = [
     'src="./img/04.webp" alt="Gatto"',
     'src="./img/05.webp" alt="Avengers" class="avengers"'
 ];
+console.log(immagini);
+
+for(i = 0; i < immagini.length; i++){
+    
+}

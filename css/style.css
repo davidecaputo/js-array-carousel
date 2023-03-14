@@ -32,3 +32,9 @@
 .slide.active{
     display: block;
 }
+
+button{
+    color: white;
+    background-color: transparent;
+    border: none;
+}
