@@ -25,7 +25,6 @@ const images = [
     'src="./img/04.webp" alt="Gatto"',
     'src="./img/05.webp" alt="Avengers" class="avengers"'
 ];
-console.log(images);
 
 let slideIndex = 0;
 let slides = '';
@@ -36,7 +35,6 @@ for(i = 0; i < images.length; i++){
         </div>
     `
 }
-console.log(slides);
 boxSlide.innerHTML += slides;
 document.querySelectorAll('.slide')[slideIndex].classList.add('active');
 
