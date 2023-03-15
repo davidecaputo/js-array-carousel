@@ -54,3 +54,15 @@ function goUp(){
     }
     document.querySelectorAll('.slide')[slideIndex].classList.add('active');
 }
+
+down.addEventListener('click', goDown);
+
+function goDown(){
+    document.querySelectorAll('.slide')[slideIndex].classList.remove('active');
+    if(slideIndex === 0){
+        slideIndex = images.length - 1;
+    } else {
+        slideIndex--;
+    }
+    document.querySelectorAll('.slide')[slideIndex].classList.add('active');
+}
