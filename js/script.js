@@ -77,3 +77,5 @@ function goDown(){
     document.querySelectorAll('.slide')[slideIndex].classList.add('active');
     document.querySelectorAll('.preview')[slideIndex].classList.add('selected');
 }
+
+setInterval(goUp, 2000);
